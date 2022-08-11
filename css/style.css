@@ -1,0 +1,118 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+/* banner */
+.banner {
+  background-image: url(/landing/images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 140px;
+}
+
+.container h1, h2 {
+  color: white;
+}
+
+.container h1 {
+  font-size: x-large;
+}
+
+.container h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+/* cards */
+.card-header {
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  margin: 0px;
+  padding: 15px;
+}
+
+.card {
+  width: 200px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 2px lightgray;
+}
+
+.card h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.card h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-weight: lighter;
+}
+
+.card-img {
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 50px;
+  padding-top: 0px;
+}
+/* button */
+.btn-treehouse {
+  padding: 12px 20px;
+  background-color: lightgreen;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.btn-treehouse:hover {
+  opacity: 0.7;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  padding: 80px;
+  font-size: 20px;
+  color: grey;
+  background-color: rgb(47, 41, 41);
+}
+
+.footer a {
+  font-size: 30px;
+  color: limegreen;
+}
